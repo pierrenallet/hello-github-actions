@@ -1,6 +1,6 @@
 name: "my workflow"
 on: push
-
+# some comment
 jobs:
   build:
     name: Hello world action
