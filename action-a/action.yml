@@ -1,0 +1,18 @@
+name: "Hello wordl"
+description: "Greets someone"
+author: "whatever"
+
+inputs:
+  MY_NAME:
+    description: "Who to greet"
+    required: true
+    default: "World"
+  
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  
+branding:
+  icon: "mic"
+  color: "purple"
+
