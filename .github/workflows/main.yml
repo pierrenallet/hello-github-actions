@@ -10,3 +10,7 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "John"
+
+      - name: Setup Xamarin
+        uses: maxim-lobanov/setup-xamarin@v1
+        
